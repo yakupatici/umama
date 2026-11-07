@@ -1,0 +1,32 @@
+:root{--bg:#FAF9F6;--card:#fff;--tx:#2B2420;--tx2:#6E665F;--line:#E8E3DD;--coral:#C8553D;--coralT:#FCEEE8;--sage:#4A7559}
+@media (prefers-color-scheme:dark){:root{--bg:#1C1917;--card:#292420;--tx:#F4EDE6;--tx2:#B3A69C;--line:#3A332D;--coral:#F0937B;--coralT:#3D2722;--sage:#A3CDB0}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.6 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,sans-serif}
+a{color:var(--coral)}
+.wrap{max-width:720px;margin:0 auto;padding:28px 22px 72px}
+header.top{display:flex;align-items:center;gap:12px;justify-content:space-between;margin-bottom:28px}
+header.top .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--tx);font-weight:600;font-size:18px}
+header.top .brand img{width:36px;height:36px;border-radius:9px}
+header.top .lang{font-size:14px;color:var(--tx2);text-decoration:none;border:1px solid var(--line);padding:4px 10px;border-radius:999px}
+h1{font-family:ui-serif,"New York",Georgia,serif;font-weight:500;font-size:34px;line-height:1.2;margin:0 0 6px}
+h2{font-size:20px;margin:36px 0 8px}
+h3{font-size:17px;margin:22px 0 4px}
+p,li{color:var(--tx)}
+.muted{color:var(--tx2);font-size:15px}
+.lead{font-size:19px;color:var(--tx2);margin:10px 0 24px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:18px 0}
+.box.soft{background:var(--coralT);border-color:transparent}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:10px 0}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--tx2);font-weight:600}
+nav.links{display:grid;gap:10px;margin:24px 0}
+nav.links a{display:flex;justify-content:space-between;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;text-decoration:none;color:var(--tx);font-weight:600}
+nav.links a span{color:var(--tx2);font-weight:400;font-size:15px}
+.hero{text-align:center;padding:24px 0 8px}
+.hero img{width:112px;height:112px;border-radius:26px;box-shadow:0 10px 30px rgba(200,85,61,.25)}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:14px;color:var(--tx2)}
+footer a{color:var(--tx2);margin-right:14px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:10px 0 2px}
